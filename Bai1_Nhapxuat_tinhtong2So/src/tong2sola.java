@@ -14,9 +14,9 @@ public class tong2sola {
 	//	System.out.print("Tổng của" + a + "và" + b + "là" + sum);
 		System.out.print(" Tổng của ");
 		System.out.print(num1);
-		System.out.print("và");
+		System.out.print(" + ");
 		System.out.print(num2);
-		System.out.print( "là");
+		System.out.print(" = ");
 		System.out.print(sum);
 	}
 
