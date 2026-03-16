@@ -22,6 +22,21 @@ public class Runmain {
        for (Integer x : dsSoNguyen) {
     	  System.out.print(x + "");
        }
+       int soLuongPTchan=0;
+       for (Integer x : dsSoNguyen) {
+    	   if (x % 2 ==0) soLuongPTchan=soLuongPTchan+1;
+ //    	   if (x % 2 ==0) soLuongPTchan=soLuongPTchan++;
+    	   System.out.println(" Số Phần tử chẳn là" + soLuongPTchan);
+       }
+//     for ( int i=0; i<dsSoNguyen.size(); i++) {
+//   	   Integer tam = dsSoNguyen.get(i);
+//         if( tam % 2 ==0) soLuongPTchan=soLuongPTchan++;
+//   	    
+       int TongAll=0;
+       for ( Integer x: dsSoNguyen) {
+    	   TongAll = TongAll +x;
+    	   System.out.println("Tổng các phần tử chẳn là"+ TongAll);
+       }
 	}
 
 }
