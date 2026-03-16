@@ -35,7 +35,7 @@ public class Runmain {
        int TongAll=0;
        for ( Integer x: dsSoNguyen) {
     	   TongAll = TongAll +x;
-    	   System.out.println("Tổng các phần tử chẳn là"+ TongAll);
+    	   System.out.println("Tổng các phần tử chẳn là "+ TongAll);
        }
 	}
 
