@@ -4,8 +4,8 @@ public class  xemay extends phuongtien_java {
 	private int dungtichxilanh;
 	private String loaixe;
 	
-	public xemay(int namxansuat, String hangxansuat, double giaban, int dungtichxilanh, String loaixe) {
-		super.(namxansuat, hangxansuat , giaban);
+	public xemay(String namxansuat, String hangxansuat, int giaban, int dungtichxilanh, String loaixe) {
+		super(namxansuat, hangxansuat , giaban);
 		this.dungtichxilanh = dungtichxilanh;
 		this.loaixe = loaixe;
 	}

@@ -17,9 +17,9 @@ public class phuongtien_java {
 		return 0;
 	}
 	public void hienthithongtin() {
-		System.out.print("Năm xản suất" + namxansuat);
-		System.out.println("Hãng xản suât" + hangxansuat);
-		System.out.println("Giá Bán" + giaban);
+		System.out.println("Năm xản suất : " + namxansuat);
+		System.out.println("Hãng xản suât : " + hangxansuat);
+		System.out.println("Giá Bán : " + giaban);
 	}
 }
 
