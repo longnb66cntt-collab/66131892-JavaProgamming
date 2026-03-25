@@ -23,6 +23,7 @@ public class  xemay extends phuongtien_java {
 		super.hienthithongtin();
 		System.out.println("Dung tích của xilanh :" + dungtichxilanh);
 		System.out.println("loai xe : " + loaixe);
+		System.out.println("vận tốc tối đa : " + this.vantoctoida());
 	}
 
 	
