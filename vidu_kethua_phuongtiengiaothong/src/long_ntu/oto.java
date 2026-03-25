@@ -10,7 +10,9 @@ public class oto extends phuongtien_java {
     	this.dongco = dongco;
     	
     }
-    public 
+    public double tinhtheutruocba() {
+    	return socho*3000000;
+    }
     @Override
     public double vantoctoida() {
     	return socho*20;
@@ -23,8 +25,9 @@ public class oto extends phuongtien_java {
     @Override
     public void hienthithongtin() {
     	super.hienthithongtin();
-    	System.out.println("Số chỗ" + so cho)
-    	System.out.println("dong cơ")
+    	System.out.println("Số chỗ : " + socho);
+    	System.out.println("dong cơ : " + dongco);
+    	System.out.println("số thếu : " + this.tinhtheutruocba());
     }
  
 }
