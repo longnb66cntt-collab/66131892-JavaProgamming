@@ -6,6 +6,8 @@ public class run {
 		hh1.hienthithongtin();
 		hinhchunhat hcn1= new hinhchunhat(" hình chử nhật", "màu xanh ",3,2);
 		hcn1.hienthithongtin();
+		hinhtron ht1 = new hinhtron("hình tròn", "màu vàng",4);
+		ht1.hienthithongtin();
 		
 	}
 
