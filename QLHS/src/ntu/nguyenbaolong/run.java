@@ -1,5 +1,7 @@
 package ntu.nguyenbaolong;
 
+import java.util.Scanner;
+
 public class run {
 	public static void main(String[] args) {
        hocsinh hs1 = new hocsinh();
@@ -18,6 +20,24 @@ public class run {
        System.out.println("Tên HS2 : " + hs2.getTenHS());
        System.out.println("Tuổi HS2 : " + hs2.getTuoiHS());
        System.out.println("Lớp HS2 : " + hs2.getLopHS());
+ // 1 b nhâp dữ liệu từ bàn phím      
+       Scanner banphim = new Scanner(System.in);
+       hocsinh hs3 =new hocsinh();
+       
+       System.out.print("Mời nhặp tên HS3 : ");
+       String tenhs3= banphim.nextLine();
+       hs3.setTenHS(tenhs3);
+       
+       System.out.print("Mời nhặp tuổi HS3 : ");
+       short tuoihs3= banphim.nextShort();
+       hs3.setTuoiHS(tuoihs3);
+       
+       System.out.println("Mời nhặp lớp HS3 : ");
+       String lophs3= banphim.nextLine();
+       hs3.setTenHS(lophs3);
+       
+       System.out.println(hs3.toString());
+        
 
 	}
 

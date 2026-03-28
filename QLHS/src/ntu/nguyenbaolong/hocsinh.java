@@ -36,7 +36,12 @@ public class hocsinh {
 
 	@Override
 	public String toString() {
-		return "hocsinh [tenHS=" + tenHS + ", tuoiHS=" + tuoiHS + ", lopHS=" + lopHS + "]";
+		String chuoiXuat;
+		chuoiXuat = "\nHọ và tên" + tenHS;
+		chuoiXuat = chuoiXuat + " Tuổi" + tuoiHS;
+		chuoiXuat = chuoiXuat + "Lớp " + lopHS;
+		return chuoiXuat;
+		//return "hocsinh [tenHS=" + tenHS + ", tuoiHS=" + tuoiHS + ", lopHS=" + lopHS + "]";
 	}
 	
     
