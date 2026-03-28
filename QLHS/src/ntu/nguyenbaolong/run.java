@@ -1,5 +1,6 @@
 package ntu.nguyenbaolong;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class run {
@@ -37,6 +38,10 @@ public class run {
        hs3.setTenHS(lophs3);
        
        System.out.println(hs3.toString());
+       
+       ArrayList<hocsinh> dshocsinh = new ArrayList<hocsinh>();
+       System.out.print("Nhập N : ");
+       int N= banphim.nextInt();
         
 
 	}
