@@ -42,6 +42,29 @@ public class run {
        ArrayList<hocsinh> dshocsinh = new ArrayList<hocsinh>();
        System.out.print("Nhập N : ");
        int N= banphim.nextInt();
+       
+       for (int i =0; i<N; i++) {
+    	   hocsinh hsi =new hocsinh();
+           
+           System.out.print("Mời nhặp tên HSi : " + i);
+           String tenhsi= banphim.nextLine();
+           hsi.setTenHS(tenhsi);
+           
+           System.out.print("Mời nhặp tuổi HSi : " + i);
+           short tuoihsi= banphim.nextShort();
+           hsi.setTuoiHS(tuoihsi);
+           
+           System.out.println("Mời nhặp lớp HSi : " + i);
+           String lophsi= banphim.nextLine();
+           hsi.setTenHS(lophsi);
+           // Dưa vào danh sách
+           dshocsinh.add(hsi);
+       }
+        // ỉna
+       for(int i=0; i<N; i++) {
+    	   System.out.println(dshocsinh.get(i).toString());
+       }
+       
         
 
 	}
